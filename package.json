@@ -1,11 +1,18 @@
 {
+  "name": "cozynest",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --minify",
+    "start": "serve .",
+    "watch": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.0",
+    "serve": "^14.0.1"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.4",
     "tailwindcss": "^3.4.18"
-  },
-  "scripts": {
-    "build": "npx tailwindcss -i ./src/style.css -o ./dist/style.css",
-    "watch": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
   }
 }

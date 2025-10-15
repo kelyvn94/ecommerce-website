@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        licorice: '#2563eb',
-        caf_noir: '#3b82f6',
+        licorice: '#281811ff',
+        caf_noir: '#4b3621ff',
         butterscotch: '#d89245',
         butterscotch_light: '#dd9d4cff',
         papaya_whip: '#fff3dcff',
